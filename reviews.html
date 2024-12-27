@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rest.html">Restaurants</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Restaurant Reviews</h1>
+    </header>
+
+    <section class="reviews-section">
+        <h2>Top Reviews</h2>
+        <div class="review">
+            <h3>Restaurant 1</h3>
+            <p>⭐⭐⭐⭐⭐ - Amazing food, great customer service! Will definitely come back.</p>
+        </div>
+        <div class="review">
+            <h3>Restaurant 2</h3>
+            <p>⭐⭐⭐⭐ - Tasty dishes, but the delivery could be faster.</p>
+        </div>
+        <div class="review">
+            <h3>Restaurant 3</h3>
+            <p>⭐⭐⭐⭐⭐ - Great experience overall! Highly recommend their special dishes.</p>
+        </div>
+    </section>
+<div class="review-section">
+            <h2>Leave a Review</h2>
+            <form class="review-form" id="reviewForm">
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">★</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">★</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">★</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">★</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">★</label>
+                </div>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="review" placeholder="Your Review" rows="4" required></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    <footer>
+        <p>&copy; 2024 Food Delivery</p>
+    </footer>
+</body>
+</html>
